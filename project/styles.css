@@ -1,0 +1,36 @@
+/* Стилізація блоків з user - по 5 в рядок */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.userBlock {
+    width: 16%;
+    max-height: 8%;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background: linear-gradient( #ffffff, #f6f6f6);
+}
+
+/* Стилізація кнопок/посилань під інформацією про user */
+.userButton {
+    display: block;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    background-color: #1d6022;
+    text-align: center;
+    padding-top: 5px;
+    color: aliceblue;
+}
+.userButton:hover{
+    scale: 1.05;
+    background-color: #4e9154;
+    color: aliceblue;
+}

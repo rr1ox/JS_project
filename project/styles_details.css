@@ -1,0 +1,65 @@
+/* Стилізація блоку з інформацією про user зверху сторінки */
+#userDetails {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+/* Стилізація кнопки на 90% ширини сторінки, по центру */
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.userInfo {
+    background-color: #dbffdd;
+    font-size: 20px;
+}
+.divForPostsAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.postsMainDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.displayPosts {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #1d6022;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+.postDiv {
+    padding: 10px;
+    background-color: #f7fff7;
+    border: 1px solid #526050;
+}
+.mainUl {
+    margin-block-end: 0;
+}
+.redirectButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #77de73;
+    color: #ffffff;
+
+}
